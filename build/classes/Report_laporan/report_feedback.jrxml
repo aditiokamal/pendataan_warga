@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9622657b-fc84-4456-98d0-e91ace6ed9ed">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" fontName="Arial" fontSize="26" isBold="true" pdfFontName="Helvetica-Bold"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     tb_feedback.`jabatan` AS tb_feedback_jabatan,
+     tb_feedback.`keluhan` AS tb_feedback_keluhan,
+     tb_feedback.`saran` AS tb_feedback_saran
+FROM
+     `tb_feedback` tb_feedback]]>
+	</queryString>
+	<field name="tb_feedback_jabatan" class="java.lang.String"/>
+	<field name="tb_feedback_keluhan" class="java.lang.String"/>
+	<field name="tb_feedback_saran" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="70" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="5601fc3d-85e4-4c0b-b10a-a1ffd13e647d" style="Title" x="0" y="13" width="263" height="33"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Keluhan dan Saran]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="7de788cd-cc0f-4779-b454-641b7e3cb4a0" style="SubTitle" x="117" y="46" width="157" height="22"/>
+				<textElement/>
+				<text><![CDATA[SIRNAGALIH]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="36" splitType="Stretch">
+			<line>
+				<reportElement uuid="be1c3f74-c752-41c1-b7e7-d990d0f8db80" positionType="FixRelativeToBottom" x="0" y="35" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement uuid="1a4fa80b-eece-4305-b61c-d8f6d2785f13" style="Column header" x="0" y="19" width="153" height="15"/>
+				<textElement/>
+				<text><![CDATA[Jabatan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="c95643a0-1b9f-49be-ac5e-fdec5b18150d" style="Column header" x="153" y="19" width="207" height="15"/>
+				<textElement/>
+				<text><![CDATA[Keluhan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="7e43fb20-479e-41cd-ac55-4f3c06cbef49" style="Column header" x="360" y="19" width="195" height="15"/>
+				<textElement/>
+				<text><![CDATA[Saran]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="59" splitType="Stretch">
+			<line>
+				<reportElement uuid="88426ea8-7af7-4b43-9692-62f9f5a7ddc2" positionType="FixRelativeToBottom" x="0" y="15" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement uuid="67320fa3-d95b-4f7b-8c3b-247eed04b40a" style="Detail" x="0" y="0" width="153" height="48"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{tb_feedback_jabatan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="13f04df0-9627-45c0-8cea-cbb88a70ca11" style="Detail" x="153" y="0" width="207" height="48"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{tb_feedback_keluhan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="2530917a-df25-411c-a9e7-d2592ee03bf7" style="Detail" x="360" y="1" width="195" height="47"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{tb_feedback_saran}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<line>
+				<reportElement uuid="2ca9a56c-3670-4a61-b3cd-4f90448c9157" positionType="FixRelativeToBottom" x="0" y="3" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement uuid="daa0572d-9f5b-4e8a-a1bf-dbb551075f71" style="Column header" x="433" y="0" width="80" height="20"/>
+				<textElement textAlignment="Right">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="f5799fe1-b07e-4924-b7e1-2c20b7323152" style="Column header" x="513" y="0" width="40" height="20"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement uuid="e0dc4067-09a5-4d7c-b4a5-3db1cc3579d3" style="Column header" x="0" y="0" width="197" height="20"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

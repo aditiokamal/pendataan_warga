@@ -1,0 +1,144 @@
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <style type="text/css">
+    a {text-decoration: none}
+  </style>
+</head>
+<body text="#000000" link="#000000" alink="#000000" vlink="#000000">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td width="50%">&nbsp;</td><td align="center">
+
+<a name="JR_PAGE_ANCHOR_0_1"></a>
+<table style="width: 595px; border-collapse: collapse" cellpadding="0" cellspacing="0" border="0" bgcolor="white">
+<tr>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 100px; height: 1px;"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 85px; height: 1px;"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 12px; height: 1px;"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 66px; height: 1px;"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 7px; height: 1px;"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 4px; height: 1px;"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 96px; height: 1px;"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 16px; height: 1px;"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 169px; height: 1px;"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="11"><img alt="" src="reportkeluar.jasper_files/px" style="width: 595px; height: 20px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="9"><img alt="" src="reportkeluar.jasper_files/px" style="width: 406px; height: 13px;"/></td>
+  <td rowspan="2" style="text-align: right;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">created by Universitas Indraprasta</span></p></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 13px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 7px;"/></td>
+  <td colspan="4" rowspan="2" style=" vertical-align: middle;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #000000; font-size: 26px; line-height: 1; *line-height: normal; font-weight: bold;">Dana Keluar RT</span></p></td>
+  <td colspan="4"><img alt="" src="reportkeluar.jasper_files/px" style="width: 123px; height: 7px;"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 7px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 26px;"/></td>
+  <td colspan="6"><img alt="" src="reportkeluar.jasper_files/px" style="width: 312px; height: 26px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="reportkeluar.jasper_files/px" style="width: 120px; height: 22px;"/></td>
+  <td colspan="5"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #666666; font-size: 18px; line-height: 1; *line-height: normal;">Sirnagalih</span></p></td>
+  <td colspan="4"><img alt="" src="reportkeluar.jasper_files/px" style="width: 301px; height: 22px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="11"><img alt="" src="reportkeluar.jasper_files/px" style="width: 595px; height: 21px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 15px;"/></td>
+  <td colspan="2"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #666666; font-size: 12px; line-height: 1; *line-height: normal; font-weight: bold;">Jenis Pengeluaran</span></p></td>
+  <td colspan="5"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #666666; font-size: 12px; line-height: 1; *line-height: normal; font-weight: bold;">Jumlah Pengeluaran</span></p></td>
+  <td colspan="2"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #666666; font-size: 12px; line-height: 1; *line-height: normal; font-weight: bold;">Tanggal Pengeluaran</span></p></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 15px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="11"><img alt="" src="reportkeluar.jasper_files/px" style="width: 595px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+  <td colspan="9" style="border-top: 1px solid #999999; "><img alt="" src="reportkeluar.jasper_files/px" border="0"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 15px;"/></td>
+  <td colspan="2"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">ANGGARAN KEBERSIHAN</span></p></td>
+  <td colspan="5"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">150,000</span></p></td>
+  <td colspan="2"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">01/04/21 00:00</span></p></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 15px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+  <td colspan="9" style="border-top: 1px solid #999999; "><img alt="" src="reportkeluar.jasper_files/px" border="0"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 15px;"/></td>
+  <td colspan="2"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">ANGGARAN GOTONG ROYONG</span></p></td>
+  <td colspan="5"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">100,000</span></p></td>
+  <td colspan="2"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">11/07/21 00:00</span></p></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 15px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+  <td colspan="9" style="border-top: 1px solid #999999; "><img alt="" src="reportkeluar.jasper_files/px" border="0"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 15px;"/></td>
+  <td colspan="2"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">ANGGARAN ACARA</span></p></td>
+  <td colspan="5"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">1,000,000</span></p></td>
+  <td colspan="2"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">18/07/21 00:00</span></p></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 15px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+  <td colspan="9" style="border-top: 1px solid #999999; "><img alt="" src="reportkeluar.jasper_files/px" border="0"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 15px;"/></td>
+  <td colspan="2"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">ANGGARAN RAPAT WARGA</span></p></td>
+  <td colspan="5"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">100,000</span></p></td>
+  <td colspan="2"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">03/07/21 00:00</span></p></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 15px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+  <td colspan="9" style="border-top: 1px solid #999999; "><img alt="" src="reportkeluar.jasper_files/px" border="0"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="11"><img alt="" src="reportkeluar.jasper_files/px" style="width: 595px; height: 570px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+  <td colspan="9" style="border-top: 1px solid #999999; "><img alt="" src="reportkeluar.jasper_files/px" border="0"/></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="11"><img alt="" src="reportkeluar.jasper_files/px" style="width: 595px; height: 41px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 20px;"/></td>
+  <td colspan="3"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Arial; color: #666666; font-size: 10px; line-height: 1; *line-height: normal;">Wednesday 07 July 2021</span></p></td>
+  <td colspan="2"><img alt="" src="reportkeluar.jasper_files/px" style="width: 73px; height: 20px;"/></td>
+  <td colspan="2" style="text-align: right;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 12px; line-height: 1; *line-height: normal; font-weight: bold;">Subtotal : </span></p></td>
+  <td colspan="2" style="text-align: right;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 12px; line-height: 1; *line-height: normal; font-weight: bold;">1,350,000</span></p></td>
+  <td><img alt="" src="reportkeluar.jasper_files/px" style="width: 20px; height: 20px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="11"><img alt="" src="reportkeluar.jasper_files/px" style="width: 595px; height: 20px;"/></td>
+</tr>
+</table>
+
+</td><td width="50%">&nbsp;</td></tr>
+</table>
+</body>
+</html>

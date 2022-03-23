@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="dda5c26a-c1f2-4e71-814f-1e875535acbe">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" forecolor="#FFFFFF" fontName="Times New Roman" fontSize="50" isBold="false" pdfFontName="Times-Bold"/>
+	<style name="SubTitle" forecolor="#CCCCCC" fontName="Times New Roman" fontSize="18" isBold="false" pdfFontName="Times-Roman"/>
+	<style name="Column header" forecolor="#666666" fontName="Times New Roman" fontSize="14" isBold="true" pdfFontName="Times-Roman"/>
+	<style name="Detail" mode="Transparent" fontName="Times New Roman" pdfFontName="Times-Roman"/>
+	<style name="Row" mode="Transparent" fontName="Times New Roman" pdfFontName="Times-Roman">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style mode="Opaque" backcolor="#F0EFEF"/>
+		</conditionalStyle>
+	</style>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     tb_iuaran_warga.`kd_byr` AS tb_iuaran_warga_kd_byr,
+     tb_iuaran_warga.`nama` AS tb_iuaran_warga_nama,
+     tb_iuaran_warga.`date` AS tb_iuaran_warga_date,
+     tb_iuaran_warga.`iuaran` AS tb_iuaran_warga_iuaran,
+     tb_iuaran_warga.`bulan` AS tb_iuaran_warga_bulan,
+     tb_iuaran_warga.`kebersihan` AS tb_iuaran_warga_kebersihan,
+     tb_iuaran_warga.`acara` AS tb_iuaran_warga_acara,
+     tb_iuaran_warga.`total` AS tb_iuaran_warga_total
+FROM
+     `tb_iuaran_warga` tb_iuaran_warga]]>
+	</queryString>
+	<field name="tb_iuaran_warga_kd_byr" class="java.lang.String"/>
+	<field name="tb_iuaran_warga_nama" class="java.lang.String"/>
+	<field name="tb_iuaran_warga_date" class="java.lang.String"/>
+	<field name="tb_iuaran_warga_iuaran" class="java.lang.Integer"/>
+	<field name="tb_iuaran_warga_bulan" class="java.lang.Integer"/>
+	<field name="tb_iuaran_warga_kebersihan" class="java.lang.Integer"/>
+	<field name="tb_iuaran_warga_acara" class="java.lang.Integer"/>
+	<field name="tb_iuaran_warga_total" class="java.lang.Integer"/>
+	<variable name="subtotal" class="java.lang.Integer" calculation="Sum">
+		<variableExpression><![CDATA[$F{tb_iuaran_warga_total}]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="102" splitType="Stretch">
+			<frame>
+				<reportElement uuid="bded6cf8-2d45-4dbc-9883-9dc9d1f715fe" mode="Opaque" x="0" y="0" width="802" height="66" backcolor="#000000"/>
+				<staticText>
+					<reportElement uuid="78b5253f-e00c-4a52-8db9-c816d48feaf7" style="Title" x="0" y="0" width="370" height="66"/>
+					<box topPadding="4" leftPadding="4" bottomPadding="4" rightPadding="4"/>
+					<textElement verticalAlignment="Bottom">
+						<font isBold="false"/>
+					</textElement>
+					<text><![CDATA[Iuran Warga RT]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="3184a5bb-89bb-49f0-9f18-a0e5008b49c9" style="SubTitle" x="370" y="37" width="316" height="29"/>
+					<textElement textAlignment="Right">
+						<font size="22" isBold="false"/>
+					</textElement>
+					<text><![CDATA[Sirnagalih]]></text>
+				</staticText>
+			</frame>
+			<frame>
+				<reportElement uuid="bf620926-37af-402d-893b-059376d39926" mode="Opaque" x="0" y="70" width="802" height="32" forecolor="#000000" backcolor="#009933"/>
+				<textField pattern="EEEEE dd MMMMM yyyy">
+					<reportElement uuid="89547b5a-1b48-477e-9467-ace9ca4d77d0" x="553" y="12" width="144" height="20" forecolor="#FFFFFF"/>
+					<textElement textAlignment="Right">
+						<font size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="18" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="66d40d9d-a62b-46ad-b4c0-bafb1fdab066" style="Column header" x="0" y="0" width="99" height="18" forecolor="#000000"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Kode Bayar]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9168100b-d170-40bb-a82a-dac8ec44397a" style="Column header" x="99" y="0" width="99" height="18" forecolor="#000000"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="45cead1d-9f96-4b57-9495-5901f71effe7" style="Column header" x="198" y="0" width="99" height="18" forecolor="#000000"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Tanggal Bayar]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="50546b52-5992-4f00-86aa-a91e32e6a478" style="Column header" x="297" y="0" width="99" height="18" forecolor="#000000"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Iuran Bulanan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9578a48a-12d3-4847-81a3-878f01ad90bd" style="Column header" x="396" y="0" width="99" height="18" forecolor="#000000"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Bulan Bayar]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ebcb5ede-2442-4098-a7c9-4908d0d42081" style="Column header" x="495" y="0" width="99" height="18" forecolor="#000000"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Iuran Kebersihan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6286175d-ef54-4cef-87c4-de89b8413737" style="Column header" x="594" y="0" width="99" height="18" forecolor="#000000"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Acara]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f3e03278-7777-44bc-aad2-18aa49bbca6f" style="Column header" x="693" y="0" width="99" height="18" forecolor="#000000"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="18" splitType="Stretch">
+			<frame>
+				<reportElement uuid="5f1795e6-414c-4cc8-b0a4-646c71759fe2" style="Row" mode="Opaque" x="0" y="0" width="797" height="18"/>
+				<textField isStretchWithOverflow="true">
+					<reportElement uuid="911d4ce5-bf37-4f88-ac8c-12ba62601041" style="Detail" positionType="Float" x="0" y="0" width="99" height="18"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{tb_iuaran_warga_kd_byr}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement uuid="36c13507-5e50-44a1-b596-907c8d91c2d6" style="Detail" positionType="Float" x="99" y="0" width="99" height="18"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{tb_iuaran_warga_nama}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement uuid="ef84d656-d90d-49ad-9e6b-ffcc2465100c" style="Detail" positionType="Float" x="198" y="0" width="99" height="18"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{tb_iuaran_warga_date}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement uuid="2eaaf4d9-ff01-4c48-8dc9-7a796e5e6c8b" style="Detail" positionType="Float" x="297" y="0" width="99" height="18"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{tb_iuaran_warga_iuaran}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement uuid="3381148b-7ab3-4768-8d85-85d8fb9a5896" style="Detail" positionType="Float" x="396" y="0" width="99" height="18"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{tb_iuaran_warga_bulan}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement uuid="ac23f077-a936-4566-9d58-fea361139e86" style="Detail" positionType="Float" x="495" y="0" width="99" height="18"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{tb_iuaran_warga_kebersihan}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement uuid="75bbbc57-7862-4701-9e45-5e65e206a674" style="Detail" positionType="Float" x="594" y="0" width="99" height="18"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{tb_iuaran_warga_acara}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement uuid="811db079-3ae9-4a81-8b79-c8d53318e553" style="Detail" positionType="Float" x="693" y="0" width="99" height="18"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{tb_iuaran_warga_total}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="95" splitType="Stretch">
+			<line>
+				<reportElement uuid="6b36bddf-15d7-4892-b249-b47cc13dfadc" positionType="FixRelativeToBottom" x="0" y="3" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="29" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="3f13dbb2-42b6-4946-92d0-c06d70165eb5" x="597" y="0" width="100" height="25"/>
+				<textElement verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SUBTOTAL]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" pattern="#,##0">
+				<reportElement uuid="811db079-3ae9-4a81-8b79-c8d53318e553" style="Detail" positionType="Float" x="698" y="5" width="99" height="18"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{subtotal}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
